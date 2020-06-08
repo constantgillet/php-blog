@@ -1,0 +1,24 @@
+@import './reset.scss';
+@import './fonts.scss';
+
+$primary: #4436E3;
+
+h1, h2, h3, a, p, button, label {
+    font-family: 'Lato';
+    color: black;
+}
+
+.main-index {
+    height: 100%;
+}
+
+@import './header.scss';
+@import './homepage.scss';
+@import './articlepage.scss';
+@import './loginpage.scss';
+@import './create_articlepage.scss';
+
+.body-homepage {
+    overflow: hidden;
+    height: 100vh;
+}

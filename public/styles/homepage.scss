@@ -1,0 +1,105 @@
+.main-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-articles {
+    width: 1274px;
+    margin: 0 auto;
+
+    &__title {
+        font-size: 39px;
+        font-weight: 700;
+
+        &::after {
+            content: '';
+            display: block;
+            width: 350px;
+            height: 8px;
+            background:  #4436E3;
+        }
+    }
+
+    &__article-list-box {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 42px;
+
+        &__box {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    &__main-article {
+        width: 345px;
+        height: 547px;
+        background: black;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-position: center !important;
+        background-size: cover !important;
+
+        & a {
+            text-decoration: none;
+        }
+
+        &__title {
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+            margin-left: 34px;
+            margin-right: 34px;
+            margin-bottom: 10px;
+            text-decoration: none;
+        }
+
+        &__date {
+            font-size: 18.4615px;
+            line-height: 22px;
+            color: rgba(255, 255, 255, 0.5);
+            margin-left: 34px;
+            margin-right: 34px;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__article {
+        width: 413px;
+        height: 253px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-position: center !important;
+        background-size: cover !important;
+        
+        & a {
+            text-decoration: none;
+        }
+
+        &__title {
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+            margin-left: 34px;
+            margin-right: 34px;
+            margin-bottom: 10px;
+            text-decoration: none;
+        }
+
+        &__date {
+            font-size: 18.4615px;
+            line-height: 22px;
+            color: rgba(255, 255, 255, 0.5);
+            margin-left: 34px;
+            margin-right: 34px;
+            margin-bottom: 20px;
+        }
+    }
+
+}
